@@ -40,3 +40,11 @@ def season_of_the_year(month):
 season_of_the_year(13)
 
 #======================
+
+def numbers(num1, num2, num3):
+    if num1 > 10 and num2 > 10 and num3 > 10:
+        print("yes")
+    else:
+        print("no")
+
+numbers(3, 9, 18)
