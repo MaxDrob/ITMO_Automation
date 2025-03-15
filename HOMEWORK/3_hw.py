@@ -68,7 +68,7 @@ positive_count([1, 2, 3, -100, -500])
 
 #======================
 
-#task_6
+#task_7
 
 def day_calculus(y, m):
     days = y * 12 * 29 + m * 29
