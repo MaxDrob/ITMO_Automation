@@ -27,7 +27,7 @@
 #
 # student_rank(7)
 
-num = int(-1000)
+num = int(99)
 if num <-100 or num>100:
     print('-')
 else: print('+')
