@@ -72,6 +72,6 @@ positive_count([1, 2, 3, -100, -500])
 
 def day_calculus(y, m):
     days = y * 12 * 29 + m * 29
-    print("Total amount of days in a given year is: ", days)
+    print("Total amount of days in a given period of time is: ", days)
 
 day_calculus(100, 100)
