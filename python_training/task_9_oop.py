@@ -1,15 +1,30 @@
-class Button:
-    def __init__(self, text, link):
+# class Button:
+#     def __init__(self, text, link):
+#         self.text = text
+#         self.link = link
+#
+# home = Button("Домой", "/home")
+# catalog_msk = Button("Каталог", "/msk/catalog")
+#
+# print(home.text)
+# print("Кнопка " + home.text + " имеет ссылку " + home.link)
+#
+# print("\n")
+#
+# print(catalog_msk.text)
+# print("Кнопка " + catalog_msk.text + " имеет ссылку " + catalog_msk.link)
+
+
+class ButtonTwo:
+
+    def __init__(self, text, link, loc):
         self.text = text
         self.link = link
+        self.loc = loc
 
-home = Button("Домой", "/home")
-catalog_msk = Button("Каталог", "/msk/catalog")
+    def click(self):
+        return "Клик по локатору - {}" .format(self.loc)
 
-print(home.text)
-print("Кнопка " + home.text + " имеет ссылку " + home.link)
+home_two = ButtonTwo("Домой", "/home", "button#home")
 
-print("\n")
-
-print(catalog_msk.text)
-print("Кнопка " + catalog_msk.text + " имеет ссылку " + catalog_msk.link)
+print(home_two.click())
