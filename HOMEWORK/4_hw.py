@@ -20,6 +20,9 @@ print(f"Rectangle2: Area = {rectangle2.area()}, Perimeter = {rectangle2.perimete
 print(f"Rectangle3: Area = {rectangle3.area()}, Perimeter = {rectangle3.perimeter()}")
 
 
+#Task 2
+
+
 class Math:
     def __init__(self, a, b):
         self.a = a
