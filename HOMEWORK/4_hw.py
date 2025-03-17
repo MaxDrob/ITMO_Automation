@@ -121,12 +121,12 @@ class Car:
         self.year = year
         print(f"Год выпуска: {self.year}")
 
-    # Метод 4: Присвоение типа автомобиля
+
     def set_type(self, type):
         self.type = type
         print(f"Тип авто: {self.type}")
 
-    # Метод 5: Присвоение цвета автомобиля
+
     def set_color(self, color):
         self.color = color
         print(f"Цвет: {self.color}")
