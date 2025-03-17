@@ -9,12 +9,12 @@ class Rectangle:
     def perimeter(self):
         return 2 * (self.width + self.height)
 
-# Создаем три объекта прямоугольника
+
 rectangle1 = Rectangle(9, 10)
 rectangle2 = Rectangle(3, 9)
 rectangle3 = Rectangle(8, 12)
 
-# Рассчитываем площадь и периметр для каждого прямоугольника
+
 print(f"Rectangle1: Area = {rectangle1.area()}, Perimeter = {rectangle1.perimeter()}")
 print(f"Rectangle2: Area = {rectangle2.area()}, Perimeter = {rectangle2.perimeter()}")
 print(f"Rectangle3: Area = {rectangle3.area()}, Perimeter = {rectangle3.perimeter()}")
