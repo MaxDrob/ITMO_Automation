@@ -15,16 +15,24 @@
 # print("Кнопка " + catalog_msk.text + " имеет ссылку " + catalog_msk.link)
 
 
-class ButtonTwo:
+# class ButtonTwo:
+#
+#     def __init__(self, text, link, loc):
+#         self.text = text
+#         self.link = link
+#         self.loc = loc
+#
+#     def click(self):
+#         return "Клик по локатору - {}" .format(self.loc)
+#
+# home_two = ButtonTwo("Домой", "/home", "button#home")
+#
+# print(home_two.click())
 
-    def __init__(self, text, link, loc):
-        self.text = text
-        self.link = link
+class Input:
+    def __init__(self, loc):
         self.loc = loc
 
-    def click(self):
-        return "Клик по локатору - {}" .format(self.loc)
+search = Input("input#search")
 
-home_two = ButtonTwo("Домой", "/home", "button#home")
-
-print(home_two.click())
+print(search.loc)
